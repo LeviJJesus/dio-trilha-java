@@ -5,11 +5,14 @@ public class ResultadoEscolar {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite a nota do aluno: ");
-        int nota = sc.nextInt();
+        double nota = sc.nextDouble();
 
-        if (nota >= 7)
+        if (nota >= 7) {
         System.out.println("Aprovado!");
-        else 
+        } else if (nota >= 5 ) {
+        System.out.println("Recuperação!");
+        } else {
         System.out.println("Reprovado!");
+        }
     }
 }
