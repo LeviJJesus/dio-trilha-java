@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AboutMe {
     public static void main(String[] args) {
-        try {
+        // try {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite seu nome: ");
@@ -23,9 +23,9 @@ public class AboutMe {
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + "cm");
         sc.close();
-        }
-        catch (InputMismatchException e) {
-            System.err.println("Os campos idade e altura precisam ser numéricos");
-        }
+        // }
+        // catch (InputMismatchException e) {
+        //     System.err.println("Os campos idade e altura precisam ser numéricos");
+        // }
     }
 }
