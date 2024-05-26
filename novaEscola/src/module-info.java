@@ -4,5 +4,5 @@
 /**
  * 
  */
-module exemploPacotes {
+module novaEscola {
 }
