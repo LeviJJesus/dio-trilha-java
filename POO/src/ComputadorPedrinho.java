@@ -3,5 +3,14 @@ public class ComputadorPedrinho {
         MSNMessenger msn = new MSNMessenger();
         msn.enviarMensagem();
         msn.receberMensagem();
+
+        Facebook fcb = new Facebook();
+        fcb.enviarMensagem();
+        fcb.receberMensagem();
+
+        Telegram tlg = new Telegram();
+        tlg.enviarMensagem();
+        tlg.receberMensagem();
     }
+    
 }
